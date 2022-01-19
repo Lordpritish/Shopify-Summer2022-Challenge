@@ -25,6 +25,15 @@ brew install GraphicsMagick
 ```
 
 - First create a Firebase Project
+- Go to your Firebase project Dashboard and click on storage in the build tab. Once you have initialized your firebase storage, inside the storage menu there will be tab called **Rules**, and change the following line in the code:
+```
+ allow read, write: if request.auth != null;
+```
+to 
+```
+ allow read, write: if request.auth == null;
+```
+
 -  Generate an serviceAccountkey for your firebase project. Go to your ```Firebase project -> Project Settings -> Service Accounts``` and download the firebase SDK by clicking ```Generate New Private Key``` button
 - Rename the file to ``` serviceAccountKey.json ``` and put it in the root folder. The file will look like this
 ```
