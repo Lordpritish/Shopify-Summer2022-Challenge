@@ -51,6 +51,7 @@ brew install GraphicsMagick
 <p align="center">
     <u><h2 align="center">How to Run it</h2></u>
 </p>
+
 - To run the application, start up your terminal /command prompt ,and go to the project folder and then run the following command
 ```bash
 node index.js
