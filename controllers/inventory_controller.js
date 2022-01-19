@@ -1,4 +1,4 @@
-const {db} = require('../firebase_setup/firebase')
+const { db } = require('../firebase_setup/firebase')
 
 const inventory_add = async (req, res) => {
 
@@ -65,7 +65,7 @@ const inventory_delete = async (req, res) => {
         return res.status(400).send("Item not in inventory")
 }
 
-module.exports= {
+module.exports = {
     inventory_add,
     inventory_delete,
     inventory_update,
