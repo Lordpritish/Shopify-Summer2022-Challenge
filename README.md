@@ -25,7 +25,7 @@ brew install GraphicsMagick
 ```
 
 - First create a Firebase Project
-- Go to your Firebase project Dashboard and click on storage in the build tab. Once you have initialized your firebase storage, inside the storage menu there will be tab called **Rules**, and change the following line in the code:
+- Go to your Firebase project Dashboard and click on storage in the build tab. Once you have initialized your firebase storage, inside the storage menu there will be a tab called **Rules**, where you would have to change the following line:
 ```
  allow read, write: if request.auth != null;
 ```
