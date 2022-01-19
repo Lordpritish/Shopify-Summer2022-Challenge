@@ -15,15 +15,6 @@
     <u><h2 align="center">Installations</h2></u>
 </p>
 
-- To install all the dependencies run 
-```bash
-npm i
-```
-- Please also run this command
-```bash
-brew install GraphicsMagick
-```
-
 - First create a Firebase Project
 - Go to your Firebase project Dashboard and click on storage in the build tab. Once you have initialized your firebase storage, inside the storage menu there will be a tab called **Rules**, where you would have to change the following line:
 ```
@@ -57,6 +48,15 @@ to
   BUCKET_URL=YOUR_BUCKET_URL
 ```
 
+- To install all the dependencies run 
+```bash
+npm i
+```
+- Please also run this command
+```bash
+brew install GraphicsMagick
+```
+
 <p align="center">
     <u><h2 align="center">How to Run it</h2></u>
 </p>
@@ -80,5 +80,6 @@ node index.js
 <p align="center">
     <u><h2 align="center">Images</h2></u>
 </p>
+
 - Image upload
 - Image download
