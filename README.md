@@ -77,3 +77,8 @@ node index.js
 - Delete inventory item
 - View inventory
 
+<p align="center">
+    <u><h2 align="center">Images</h2></u>
+</p>
+- Image upload
+- Image download
