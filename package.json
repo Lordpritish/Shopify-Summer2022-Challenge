@@ -1,0 +1,22 @@
+{
+  "name": "shopify-summer-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "firebase": "^9.6.2",
+    "firebase-admin": "^10.0.1",
+    "gm": "^1.23.1",
+    "imagemagick": "^0.1.3",
+    "multer": "^1.4.4",
+    "path": "^0.12.7"
+  }
+}
