@@ -65,3 +65,15 @@ to
 ```bash
 node index.js
 ```
+
+## Features
+<p align="center">
+    <u><h2 align="center">CRUD Functionality</h2></u>
+</p>
+
+
+- Create inventory items
+- Edit inventory item
+- Delete inventory item
+- View inventory
+
