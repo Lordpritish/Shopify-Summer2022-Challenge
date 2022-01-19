@@ -19,6 +19,10 @@
 ```bash
 npm i
 ```
+- Please also run this command
+```bash
+brew install GraphicsMagick
+```
 
 - First create a Firebase Project
 -  Generate an serviceAccountkey for your firebase project. Go to your ```Firebase project -> Project Settings -> Service Accounts``` and download the firebase SDK by clicking ```Generate New Private Key``` button
@@ -42,4 +46,12 @@ npm i
 
 ```
   BUCKET_URL=YOUR_BUCKET_URL
+```
+
+<p align="center">
+    <u><h2 align="center">How to Run it</h2></u>
+</p>
+- To run the application, start up your terminal /command prompt ,and go to the project folder and then run the following command
+```bash
+node index.js
 ```
