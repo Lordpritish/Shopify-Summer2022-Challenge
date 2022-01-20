@@ -72,14 +72,26 @@ node index.js
 </p>
 
 
-- Create inventory items
-- Edit inventory item
-- Delete inventory item
-- View inventory
+- All the inventry items are stored in the Firebase Database
+- **Create inventory items** : POST {/api/inventory/add}
+   - Sample body request:
+   ```
+   {
+      "item" : "sanitizer",
+      "qunatity" : 5
+   }
+   ```
+   -Sample Postman Request:
+    ![Screen Shot 2022-01-19 at 6 51 51 PM](https://user-images.githubusercontent.com/60456975/150241131-c483577b-94e6-4055-aead-9a0b2965ed08.png)
+
+- 
+- Edit inventory item : PUT {/api/inventory/edit}
+- Delete inventory item : DELETE {/api/inventory/delete/$item_name}
+- View inventory : GET {/api/inventory/view}
 
 <p align="center">
     <u><h2 align="center">Images</h2></u>
 </p>
 
-- Image upload
-- Image download
+- Image upload : POST {/api/images/upload}
+- Image download  : GET {/api/images/download}
