@@ -11,6 +11,8 @@
 * Along with one additional feature:
     * Allow image uploads AND store image with generated thumbnails
 
+#For a video demonstration visit
+
 # Table of Contents
 - [Installations](#installations)
 - [CRUD Functionality](#CRUD-Functionality)
