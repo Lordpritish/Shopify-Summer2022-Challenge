@@ -84,11 +84,11 @@ node index.js
    - Sample Postman Request:
     ![Screen Shot 2022-01-19 at 6 47 41 PM](https://user-images.githubusercontent.com/60456975/150245325-9d0f7855-158b-412e-bad6-661e12678fda.png)
     
-- View inventory : GET {/api/inventory/view}
+- **View inventory** : GET {/api/inventory/view}
    - Sample Postman Request:
    ![Screen Shot 2022-01-19 at 6 48 57 PM](https://user-images.githubusercontent.com/60456975/150245621-8b61ef05-b4db-4a1f-b2c3-a46430c12bb3.png)
 
-- Edit inventory item : PUT {/api/inventory/edit}
+- **Edit inventory item** : PUT {/api/inventory/edit}
    - Sample body request:
    ```
    {
@@ -99,8 +99,8 @@ node index.js
    - Sample Postman Request:
    ![Screen Shot 2022-01-19 at 6 50 27 PM](https://user-images.githubusercontent.com/60456975/150245424-81ee4c21-b97b-4b9d-adc6-183291e7f425.png)
 
-- Delete inventory item : DELETE {/api/inventory/delete/$item_name}
-   - In the request url replace $item_name witht the item you want to delete from the inventory
+- **Delete inventory item** : DELETE {/api/inventory/delete/$item_name}
+   - In the request url replace $item_name with the item you want to delete from the inventory
    - Sample Request:
    ![Screen Shot 2022-01-19 at 6 51 51 PM](https://user-images.githubusercontent.com/60456975/150245497-1c9ba362-b10f-4192-a47f-2bdb0addaf5d.png)
 
