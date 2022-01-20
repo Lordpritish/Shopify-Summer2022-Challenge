@@ -1,6 +1,6 @@
 # Shopify-Summer2022-Challenge
 
-## Build an inventory tracking web application for a logistics company witht the following features
+## Build an inventory tracking web application for a logistics company with the following features
 
 * Basic CRUD Functionality. You should be able to:
     * Create inventory items
