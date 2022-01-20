@@ -12,6 +12,7 @@
     * Allow image uploads AND store image with generated thumbnails
 
 # For a video demonstration visit
+-  [Youtube Video](https://www.youtube.com/watch?v=U19rjLJybpw)
 
 # Table of Contents
 - [Installations](#installations)
