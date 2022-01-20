@@ -110,4 +110,24 @@ node index.js
 </p>
 
 - Image upload : POST {/api/images/upload}
-- Image download  : GET {/api/images/download}
+  - Sample body request:
+   ```
+   {
+      "file" : test2.png
+   }
+   ```
+  - Sample Postamn Request:
+  ![Screen Shot 2022-01-19 at 8 32 56 PM](https://user-images.githubusercontent.com/60456975/150246429-2e202895-b122-4d09-962d-b75f192b033e.png)
+
+  
+- Image Download  : GET {/api/images/download}
+  - 
+  - Sample body request:
+   ```
+   {
+      "imageName" : test2.png
+   }
+   ```
+  - Sample Postman Request:
+  ![Screen Shot 2022-01-19 at 8 33 13 PM](https://user-images.githubusercontent.com/60456975/150246468-379b50c5-3e94-4bd8-afbb-5a514ef9c176.png)
+
