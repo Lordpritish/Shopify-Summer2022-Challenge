@@ -148,6 +148,7 @@ node index.js
 <p align="center">
     <u><h2 align="center">Future Features</h2></u>
 </p>
+
 - Make the UI interface for the app
 - Update the create inventory request so that it accepts images as well.
 
@@ -155,6 +156,7 @@ node index.js
 <p align="center">
     <u><h2 align="center">Note for Shopify Developers</h2></u>
 </p>
+
 - If required I will migrate to aws or gcp in the future releases.
 -  Currently the create inventory request only accepts two body parameters which are `item name` and `quantity`, if required i can update it and store more metadata such as expirty date, product_condition,shipment date,etc
 
