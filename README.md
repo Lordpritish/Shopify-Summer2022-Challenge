@@ -11,6 +11,15 @@
 * Along with one additional feature:
     * Allow image uploads AND store image with generated thumbnails
 
+# Table of Contents
+- [Installations](#installations)
+- [CRUD Functionality](#CRUD-Functionality)
+- [Images](#images)
+- [Future Features](#future-features)
+- [Note For Shopify Developers](#note-for-shopify-developers)
+- [Contact Me](#contact-me)
+
+
 <p align="center">
     <u><h2 align="center">Installations</h2></u>
 </p>
@@ -135,4 +144,23 @@ node index.js
    ```
   - Sample Postman Request:
   ![Screen Shot 2022-01-19 at 8 33 13 PM](https://user-images.githubusercontent.com/60456975/150246468-379b50c5-3e94-4bd8-afbb-5a514ef9c176.png)
+  
+<p align="center">
+    <u><h2 align="center">Future Features</h2></u>
+</p>
+- Make the UI interface for the app
+- Update the create inventory request so that it accepts images as well.
+
+
+<p align="center">
+    <u><h2 align="center">Note for Shopify Developers</h2></u>
+</p>
+- If required I will migrate to aws or gcp in the future releases.
+- Currently the create inventory request only accepts two body parameters which are `item name` and `quantity`, if required i can update it and store more metadata such as expirty date, product_condition,shipment date,etc
+
+<p align="center">
+    <u><h2 align="center">Contact Me</h2></u>
+</p>
+
+Email : pritish.panda@mail.utoronto.ca
 
