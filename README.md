@@ -109,7 +109,9 @@ node index.js
     <u><h2 align="center">Images</h2></u>
 </p>
 
-- Image upload : POST {/api/images/upload}
+- Once images are uploaded, a thumbnail is genrated which is then stored in the Firebase Storage which then can downloaded using hre firebase download url 
+   genrated by Firebase
+- Upload Image and store the generated thumnbnail: POST {/api/image/upload}
   - Sample body request:
    ```
    {
