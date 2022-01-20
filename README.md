@@ -156,7 +156,7 @@ node index.js
     <u><h2 align="center">Note for Shopify Developers</h2></u>
 </p>
 - If required I will migrate to aws or gcp in the future releases.
-- Currently the create inventory request only accepts two body parameters which are `item name` and `quantity`, if required i can update it and store more metadata such as expirty date, product_condition,shipment date,etc
+-  Currently the create inventory request only accepts two body parameters which are `item name` and `quantity`, if required i can update it and store more metadata such as expirty date, product_condition,shipment date,etc
 
 <p align="center">
     <u><h2 align="center">Contact Me</h2></u>
